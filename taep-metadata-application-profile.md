@@ -1,18 +1,19 @@
-Contributing Institution: Rutgers University
+# Contributing Institution: Rutgers University
 
-Mandatory Elements: The following 7 elements have been adapted from Dublin Core and the Text Encoding Initiative (TEI) for the purposes of describing metadata for Correspondences within the larger Thomas A. Edison Papers (TAEP).  In order to ensure consistency and interoperability with TAEP's existing database, the following elements are mandatory for every correspondence record:
-Title
-Identifier
-Subject
-Publisher
-Source
-Date
-Correspondence Description
-Relation
+## Mandatory Elements
+The following 7 elements have been adapted from Dublin Core and the Text Encoding Initiative (TEI) for the purposes of describing metadata for Correspondences within the larger Thomas A. Edison Papers (TAEP).  In order to ensure consistency and interoperability with TAEP's existing database, the following elements are mandatory for every correspondence record:
+$ Title
+$ Identifier
+$ Subject
+$ Publisher
+$ Source
+$ Date
+$ Correspondence Description
+$ Relation
 
 The following refinements to 'Relation' are mandatory in all correspondence records:
-Is Part Of
-Has Part
+$ Is Part Of
+$ Has Part
 
 Title:
 
