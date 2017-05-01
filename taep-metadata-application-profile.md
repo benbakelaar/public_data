@@ -109,11 +109,11 @@ The following refinements to 'Relation' are mandatory in all correspondence reco
 ## Correspondence Description:
 
 * Namespace: http://www.tei-c.org/ns/1.0
-* Root Element: <teiHeader> -> <profileDesc> -> <correspDesc>
+* Root Element: teiHeader -> profileDesc -> correspDesc
 * Label: Correspondence Description
-* Secondary element(s): <correspAction>
-* Tertiary element(s): <persName>, <orgName>, <date>, <settlement>
-* TEI Definition: <correspDesc> (correspondence description) contains a description of the actions related to one act of correspondence.
+* Secondary element(s): correspAction
+* Tertiary element(s): persName, orgName, date, settlement
+* TEI Definition: correspDesc (correspondence description) contains a description of the actions related to one act of correspondence.
 * TEI Comment: The correspDesc element is used within the profileDesc element to provide detailed correspondence-specific metadata, concerning in particular the communicative aspects (sending, receiving, forwarding etc.) associated with an act of correspondence. This information is complementary to the detailed descriptions of physical objects (such as letters) associated with correspondence acts, which are typically provided by the sourceDesc element.
 * TAEP Comment: The TEI namespace provides the most detailed metadata schema for correspondence descriptions amongst the various schemas that we explored for this project.
 * TAEP Derived Element(s): name, doc_date
